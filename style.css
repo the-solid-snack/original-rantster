@@ -4,7 +4,7 @@ html {
     padding: 0;
 }
 
-.header{
+.header {
     top: 0%;
     padding-top: 10%;    
     width: 100%;
@@ -32,27 +32,26 @@ html {
 }
 
 h1 {
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     margin-top: 5%; 
     text-align: center;
     background-color: lightgrey;
     border: 2px solid black;
 }
 
+.fts {
+    border: #000 1px solid;
+}
+
 .topNavBar {
     margin-top: 15px;
+    position: sticky;
+    top: 0;
     align-items: baseline;
     display: flex;
     justify-content: flex-start;
-
 }
-
-    #sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
 
     .home {
         font-weight: bold;
