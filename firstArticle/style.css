@@ -1,0 +1,75 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%; 
+    text-align: center;
+    background-color: lightgrey;
+    border: 2px solid black;
+}
+
+.topNavBar {
+    margin-top: 15px;
+    align-items: baseline;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+    .home {
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 15px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+
+    .home:hover {
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 
+                0 -1px black, 2px 2px 4px darkgray;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+
+    .contact {
+        padding-left: 5px;
+        color: black;
+        padding-right: 5px;
+        margin-right: 15px;
+        
+    }
+
+    .hireMe {
+        padding-left: 5px;
+        color: black;
+        padding-right: 5px; 
+    }
+
+.content {
+    display: flex;
+    width: 64%;
+    margin-left: 17%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.credits{
+    margin-top: 30px;
+    float: right;
+    font-size: 8px;
+}
+
+.pages {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 64%;
+    margin-left: 17%;
+}
