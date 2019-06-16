@@ -1,10 +1,12 @@
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    width: 80%;
-    margin-left: 10%;
+    width: 64%;
+    margin-left: 17%;
     margin-top: 5%; 
     text-align: center;
     background-color: lightgrey;
@@ -12,11 +14,13 @@ h1 {
 }
 
 .topNavBar {
-    margin-top: 15px;
+    background-color: white;
+    width: 12%;
+    position: sticky;
+    top: 0;
     align-items: baseline;
     display: flex;
     justify-content: flex-start;
-
 }
 
     .home {
@@ -46,12 +50,6 @@ h1 {
         
     }
 
-    .hireMe {
-        padding-left: 5px;
-        color: black;
-        padding-right: 5px; 
-    }
-
 .content {
     display: flex;
     width: 64%;
@@ -66,10 +64,44 @@ h1 {
     font-size: 8px;
 }
 
-.pages {
-    margin-top: 5%;
+.intro {
+    width: 25%;
+    margin-top: 65px;
+    margin-left: 10%;
+    line-height: 200%;
+    text-align: justify;
+}
+
+#corp {
+    margin-top: 65px;
+    line-height: 30px;
+}
+
+.emphasis {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr.footer {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.footer {
     display: flex;
-    justify-content: space-evenly;
-    width: 64%;
-    margin-left: 17%;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+.footerLink {
+    text-decoration: none;
+    padding-left: 6px;
+    color: #686261; 
+}
+
+.footerLink:hover {
+    color: black;
+    text-decoration: underline;
 }

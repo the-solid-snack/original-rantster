@@ -9,7 +9,6 @@ html {
     padding-top: 10%;    
     width: 100%;
     height: 100vh;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -31,6 +30,17 @@ html {
     font-size: 80px;
 }
 
+.edrision {
+    position: absolute;
+    width: 400px;
+    align-items: baseline;
+    justify-content: center;
+    margin-left: 65%;
+    top: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     width: 70%;
     margin-left: 15%;
@@ -38,10 +48,6 @@ h1 {
     text-align: center;
     background-color: lightgrey;
     border: 2px solid black;
-}
-
-.fts {
-    border: #000 1px solid;
 }
 
 .topNavBar {
@@ -91,15 +97,40 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .content {
     display: flex;
-    width: 64%;
-    margin-left: 17%;
+    width: 70%;
+    margin-left: 15%;
     flex-direction: column;
     justify-content: center;
 }
+
+.intro{
+    text-align: justify;
+    font-style: italic;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-grow: 1;
+    margin-top: 50px;
+    line-height: 1.7;
+}
+
+    p.intro1 {
+        border-right: black 1px solid;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 30%;
+    }
+
+    p.intro3 {
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 30%;
+    }
 
 .credits{
     margin-top: 30px;
@@ -114,3 +145,16 @@ h1 {
     width: 64%;
     margin-left: 17%;
 }
+
+    .footerLink {
+        
+        text-decoration: none;
+        padding-left: 6px;
+        color: #686261;
+        font-size: 26px; 
+    }
+
+    .footerLink:hover {
+        color: black;
+        text-decoration: underline;
+    }
