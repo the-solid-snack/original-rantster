@@ -1,0 +1,154 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 64%;
+    margin-left: 17%;
+    margin-top: 5%; 
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.topNavBar {
+    background-color: white;
+    width: 12%;
+    position: sticky;
+    top: 0;
+    align-items: baseline;
+    display: flex;
+    justify-content: flex-start;
+}
+
+    .home {
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 15px;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+
+    .home:hover {
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 
+                0 -1px black, 2px 2px 4px darkgray;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+
+    .contact {
+        padding-left: 5px;
+        color: black;
+        padding-right: 5px;
+        margin-right: 15px;
+        
+    }
+
+.header {
+    margin-top: 75px;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    text-align: center;
+    padding: 0;
+}
+
+    p.name {
+        font-size: 42px;
+        font-weight: lighter;
+        margin: 3px;
+    }
+
+    p.position {
+        margin: 3px;
+        font-size: 16px;
+        font-variant: small-caps;
+        color: orange;
+    }
+
+    p.location {
+        margin: 3px;
+        font-size: 14px;
+        font-style: italic;
+        color: #686261;
+    }
+
+    p.refList {
+        margin: 3px;
+        font-size: 14px;
+        color: black;
+    }
+
+.content {
+    display: flex;
+    width: 64%;
+    margin-top : 50px;
+    margin-left: 18%;
+    flex-direction: column;
+    justify-content: center;
+    border : 1px solid black;
+}
+
+    .title {
+        background-color : beige;
+        font-size : 24px;
+        display : flex;
+        align-items : baseline;
+    }
+
+    .titleName {
+        display: flex;
+        align-items : baseline;
+    }
+
+        .white {
+            font-weight: lighter;
+        }
+
+        .orange {
+            font-weight : bold;
+            color : orange;
+        }
+
+        .bar {
+            border-bottom : 2px solid black;
+        }
+
+.credits{
+    margin-top: 30px;
+    float: right;
+    font-size: 8px;
+}
+
+#corp {
+    margin-top: 65px;
+    line-height: 30px;
+}
+
+hr.footer {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+.footerLink {
+    text-decoration: none;
+    padding-left: 6px;
+    color: #686261; 
+}
+
+.footerLink:hover {
+    color: black;
+    text-decoration: underline;
+}
