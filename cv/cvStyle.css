@@ -52,6 +52,7 @@ p {
         padding-right: 5px;
         margin-right: 15px;
         
+        
     }
 
 .header {
@@ -96,7 +97,6 @@ p {
     margin-left: 20%;
     flex-direction: column;
     justify-content: center;
-    border : 1px solid black;
     line-height: 30px;
 }
 
@@ -107,7 +107,7 @@ p {
         display : flex;
         height: 50px;
         align-items : baseline;
-        
+        margin-bottom: 20px;
     }
 
         .black {
@@ -131,7 +131,7 @@ p {
 
 .experience {
     flex-grow: 1;
-    background: green;
+    margin-bottom: 15px;
 }
 
     .company,
@@ -139,11 +139,9 @@ p {
         margin: 0;
         padding: 0;
         height: 38px;
-        border: 1px paleturquoise solid;
     }
 
         .companyName {
-            border: 1px blue solid;
             padding-top: 8px;
             height: 28px;
             float: left;
@@ -152,7 +150,6 @@ p {
         }
 
         .companyLocation {
-            border: 1px blue solid;
             padding-top: 8px;
             height: 28px;
             float: right;
@@ -162,7 +159,6 @@ p {
         }
 
         .positionName {
-            border: 1px blue solid;
             color:  #999999;
             font-variant: small-caps;
             padding-top: 4px;
@@ -171,7 +167,6 @@ p {
         }
 
         .positionDuration {
-            border: 1px blue solid;
             font-weight: lighter;
             font-style: italic;
             padding-top: 4px;
@@ -182,7 +177,7 @@ p {
         .duty {
             margin: 0;
             list-style-type: disc;
-            font-size: 10px;
+            
         }
 
 .credits{
@@ -201,15 +196,4 @@ hr.footer {
     justify-content: center;
     align-items: baseline;
     flex-wrap: nowrap;
-}
-
-.footerLink {
-    text-decoration: none;
-    padding-left: 6px;
-    color: #686261; 
-}
-
-.footerLink:hover {
-    color: black;
-    text-decoration: underline;
 }
